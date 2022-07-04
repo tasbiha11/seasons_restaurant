@@ -8,7 +8,7 @@
    --light-white: #ccc;
    --light-bg: #f5f5f5;
    --dark-bg: rgba(0, 0, 0, .7);
-   --border: .1rem solid #aaa;
+   --border: .1rem solid black;
    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
@@ -25,10 +25,6 @@
    text-transform: capitalize;
 }
 
-*>img {
-   user-select: none;
-   pointer-events: none;
-}
 
 html {
    font-size: 62.5%;
@@ -68,19 +64,16 @@ section {
    color: var(--gold-metallic);
 }
 
-.btn {
-   margin-top: 1rem;
-   display: inline-block;
-   background: var(--gold-metallic);
-   color: var(--white);
-   cursor: pointer;
-   padding: 1rem 3rem;
-   width: 120px;
-   height: 50px;
-}
-
 .btn:hover {
    letter-spacing: .2rem;
+
+}
+
+
+.cust {
+   width: 80px;
+   height: 40px;
+   color: white;
 }
 
 .header {
@@ -332,7 +325,11 @@ section {
 
 .food .slide .price {
    font-size: 2.5rem;
-   color: var(--black);
+   color: var(--gold-metallic);
+}
+
+.fa-user {
+   color: var(--gold-metallic);
 }
 
 .food-preview-container {
@@ -412,7 +409,7 @@ section {
 
 .gallery .gallery-container {
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+   grid-template-columns: repeat(3, 1fr);
    gap: 2rem;
 }
 
@@ -441,10 +438,10 @@ section {
    background: var(--dark-bg);
 }
 
-.gallery .gallery-container .box .icon i {
+/* .gallery .gallery-container .box .icon i {
    font-size: 6rem;
    color: var(--white);
-}
+} */
 
 .gallery .gallery-container .box:hover .icon {
    display: flex;
@@ -656,9 +653,13 @@ section {
    color: var(--light-black);
 }
 
+
+
+
+
 .footer {
    text-align: center;
-   /* padding-bottom: 10rem; */
+   background-color: var(--gold-metallic);
 }
 
 .footer .icons-container {
@@ -712,7 +713,7 @@ section {
 }
 
 .footer .share a:hover {
-   background: var(--gold-metallic);
+   background: lightblue;
 
 }
 
