@@ -642,7 +642,7 @@ section {
    color: var(--black);
 }
 
-.blogs .slide .content .title:hover {
+.blogs .slide .content .re:hover {
    text-decoration: underline;
 }
 
@@ -654,7 +654,27 @@ section {
 }
 
 
+.reservation .title {
+   color: var(--gold-metallic);
+   font-size: 3.5rem;
+   line-height: 2;
+}
 
+.reservation .image {
+   flex: 1 1 41rem;
+
+}
+
+.reservation .image img {
+   width: 100%;
+
+}
+
+.reservation form {
+   font-size: 1.5rem;
+   padding: 1rem 0;
+   line-height: 2;
+}
 
 
 .footer {
