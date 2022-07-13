@@ -23,8 +23,8 @@
    text-decoration: none;
    transition: all 0.4s cubic-bezier(.43, 1.1, .62, 1.08);
    text-transform: capitalize;
-}
 
+}
 
 html {
    font-size: 62.5%;
@@ -66,9 +66,14 @@ section {
 
 .btn:hover {
    letter-spacing: .2rem;
-
 }
 
+form .btn {
+   background-color: var(--gold-metallic);
+   width: 100px;
+   height: 30px;
+   font-weight: bolder;
+}
 
 .cust {
    width: 80px;
